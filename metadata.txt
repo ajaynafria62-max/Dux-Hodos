@@ -1,0 +1,26 @@
+[general]
+name=Dux Hodos
+qgisMinimumVersion=3.16
+qgisMaximumVersion=4.99
+description=Navigate scattered vector point data feature-by-feature with highlight, sort, nearest-neighbour, area/raster filter and quick Y/N/D field editing.
+version=3.8
+author=Ajay Nafria Mandhana & Sharma A
+email=ajaynafria62@gmail.com
+about=Dux Hodos provides a dock panel for navigating location-based scattered point data one feature at a time. Key capabilities: sequential and nearest-neighbour navigation, multi-field drag-to-reorder sort, area boundary filter (polygon layer), multi-raster tile filter, quick Y/N/D attribute editing with live count, bulk apply to selected features, Google Satellite and Street View integration, and map-click-to-jump. Compatible with QGIS 3.x and QGIS 4.x (Qt5 and Qt6).
+tags=navigate,features,zoom,point,location,field survey,gis,nearest neighbour,attribute edit
+category=Vector
+icon=icon.png
+experimental=False
+deprecated=False
+license=GPL-2.0-or-later
+homepage=https://github.com/ajaynafria62-max/Feature-navigator
+tracker=https://github.com/ajaynafria62-max/Feature-navigator/issues
+repository=https://github.com/ajaynafria62-max/Feature-navigator
+hasProcessingProvider=no
+server=False
+changelog=
+    3.8 - Multiple raster filter, geometry field exclusion from edit combo, Qt5/Qt6 compat fix
+    3.7 - Navigate & Edit combined section, collapsible layout
+    3.6 - Satellite View, Street View with radius, Reset button
+    3.5 - Map-click-to-jump navigation, responsive layout
+    3.0 - Initial release
